@@ -1,2 +1,2 @@
 # portfolio
-The title says it all
+Hello and welcome to my bio!
