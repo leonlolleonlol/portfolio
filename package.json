@@ -2,8 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Hello and welcome to my bio!",
-  "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
+    "start": "node index.js",
     "dev": "parcel src/index.html --open",
     "build": "parcel build src/index.html"
   },
