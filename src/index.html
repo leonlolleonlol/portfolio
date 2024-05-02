@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leon Kojakian</title>
-    <meta
-    name="description"
-    content="Full stack developper, tutor and software engineering co-op student"
-    />
+    <meta name="description" content="Full stack developper, tutor and software engineering co-op student" />
     <meta name="keywords" content="leon kojakian, web, tutor, software, full-stack, code, developper">
     <meta name="author" content="Leon Kojakian">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
-        #eye {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            background: #ccc;
-            border-radius: 50%;
+        #face {
+            position: relative;
+            width: 320px;
+            height: 400px;
         }
+
 
         #pupil {
             position: absolute;
@@ -27,39 +27,78 @@
             background: #000;
             border-radius: 50%;
         }
+
+        #eye {
+            position: absolute;
+            top: 105px;
+            /* adjust as needed */
+            left: 92px;
+            /* adjust as needed */
+            width: 50px;
+            height: 50px;
+            background: #ccc;
+            border-radius: 50%;
+        }
+
+        #eye2 {
+            position: absolute;
+            top: 105px;
+            /* adjust as needed */
+            left: 165px;
+            /* adjust as needed */
+            width: 50px;
+            height: 50px;
+            background: #ccc;
+            border-radius: 50%;
+        }
+
+        #pupil2 {
+            position: absolute;
+            left: 100px;
+            width: 20px;
+            height: 20px;
+            background: #000;
+            border-radius: 50%;
+        }
     </style>
     <link rel="icon" href="./assets/icons/default.ico">
-    <link rel="stylesheet" href="assets/styles/base.scss">
+    <link rel="stylesheet" href="./assets/styles/base.scss">
     <script type="module" src="assets/js/config.js"></script>
 </head>
-<body>
-    <div id="eye">
-        <div id="pupil"></div>
-    </div>
 
+<body>
+        <div id="face">
+            <img src="./assets/images/leon.jpeg" alt="profile photo" width="320px" height="400px">
+            <div id="eye">
+                <div id="pupil"></div>
+            </div>
+            <div id="eye2">
+                <div id="pupil2"></div>
+            </div>
+        </div>
+        <h1>test</h1>
     <script type="module">
         const html2canvas = require('html2canvas');
         var eye = document.getElementById('eye');
         var pupil = document.getElementById('pupil');
+        var pupil2 = document.getElementById('pupil2');
 
         document.onmousemove = function (event) {
             var x = event.clientX * 100 / window.innerWidth + "%";
             var y = event.clientY * 100 / window.innerHeight + "%";
-
             pupil.style.left = x;
             pupil.style.top = y;
             pupil.style.transform = "translate(-" + x + ", -" + y + ")";
+            pupil2.style.left = x;
+            pupil2.style.top = y;
+            pupil2.style.transform = "translate(-" + x + ", -" + y + ")";
             var myDiv = document.getElementById('eye');
-
             html2canvas(myDiv).then(function (canvas) {
                 // Create an image element
                 var img = document.createElement('img');
-
                 // Set the image source to the data URL of the canvas
                 img.src = canvas.toDataURL();
-
                 var link = document.querySelector('link[rel="icon"]');
-
                 // Update the href attribute to the data URL of the new favicon
                 link.href = img.src;
             });

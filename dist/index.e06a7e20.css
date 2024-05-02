@@ -1,2 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 
+:before, :after {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-size: 64px;
+}
+
+h1 {
+  background-color: #ff0;
+}
 /*# sourceMappingURL=index.e06a7e20.css.map */
