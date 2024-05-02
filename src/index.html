@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon Kojakian</title>
+    <meta
+    name="description"
+    content="Full stack developper, tutor and software engineering co-op student"
+    />
+    <meta name="keywords" content="leon kojakian, web, tutor, software, full-stack, code, developper">
+    <meta name="author" content="Leon Kojakian">
+    <style>
+        #eye {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: #ccc;
+            border-radius: 50%;
+        }
+
+        #pupil {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #000;
+            border-radius: 50%;
+        }
+    </style>
+    <link rel="icon" href="./assets/icons/default.ico">
+    <link rel="stylesheet" href="assets/styles/base.scss">
+    <script type="module" src="assets/js/config.js"></script>
+</head>
+<body>
+    <div id="eye">
+        <div id="pupil"></div>
+    </div>
+
+    <script type="module">
+        const html2canvas = require('html2canvas');
+        var eye = document.getElementById('eye');
+        var pupil = document.getElementById('pupil');
+
+        document.onmousemove = function (event) {
+            var x = event.clientX * 100 / window.innerWidth + "%";
+            var y = event.clientY * 100 / window.innerHeight + "%";
+
+            pupil.style.left = x;
+            pupil.style.top = y;
+            pupil.style.transform = "translate(-" + x + ", -" + y + ")";
+            var myDiv = document.getElementById('eye');
+
+            html2canvas(myDiv).then(function (canvas) {
+                // Create an image element
+                var img = document.createElement('img');
+
+                // Set the image source to the data URL of the canvas
+                img.src = canvas.toDataURL();
+
+                var link = document.querySelector('link[rel="icon"]');
+
+                // Update the href attribute to the data URL of the new favicon
+                link.href = img.src;
+            });
+        }
+    </script>
+</body>
+
+</html>
