@@ -22,32 +22,32 @@
 
         #pupil {
             position: absolute;
-            width: 20px;
-            height: 20px;
+            width: 14px;
+            height: 14px;
             background: #000;
             border-radius: 50%;
         }
 
         #eye {
             position: absolute;
-            top: 105px;
+            top: 88px;
             /* adjust as needed */
-            left: 92px;
+            left: 72px;
             /* adjust as needed */
-            width: 50px;
-            height: 50px;
+            width: 35px;
+            height: 35px;
             background: #ccc;
             border-radius: 50%;
         }
 
         #eye2 {
             position: absolute;
-            top: 105px;
+            top: 88px;
             /* adjust as needed */
-            left: 165px;
+            left: 124px;
             /* adjust as needed */
-            width: 50px;
-            height: 50px;
+            width: 35px;
+            height: 35px;
             background: #ccc;
             border-radius: 50%;
         }
@@ -55,8 +55,8 @@
         #pupil2 {
             position: absolute;
             left: 100px;
-            width: 20px;
-            height: 20px;
+            width: 14px;
+            height: 14px;
             background: #000;
             border-radius: 50%;
         }
@@ -67,8 +67,8 @@
 </head>
 
 <body>
-        <div id="face">
-            <img src="./assets/images/leon.jpeg" alt="profile photo" width="320px" height="400px">
+        <div id="face" style="z-index: 100;">
+            <img src="./assets/images/leon.jpeg" alt="profile photo" width="240px" height="320px">
             <div id="eye">
                 <div id="pupil"></div>
             </div>
@@ -76,7 +76,27 @@
                 <div id="pupil2"></div>
             </div>
         </div>
-        <h1>test</h1>
+        <div class="loading">
+            <div class="loading__box">
+                <div class="loading__text">
+                    <div class="loading__text--border">
+
+                    </div>
+                    L
+                    <div class="loading__text--dot"></div>
+                    OADING EXPERIENCE
+                </div>
+                <div class="loading__bar">
+                    <div class="loading__bar--inner">
+
+                    </div>
+                </div>
+                <div class="loading__counter">
+                    <span>0%</span>
+                    <div class="loading__counter--number">100%</div>
+                </div>
+            </div>
+        </div>
     <script type="module">
         const html2canvas = require('html2canvas');
         var eye = document.getElementById('eye');

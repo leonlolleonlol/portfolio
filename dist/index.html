@@ -21,48 +21,48 @@
 #pupil {
   background: #000;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 14px;
+  height: 14px;
   position: absolute;
 }
 
 #eye {
   background: #ccc;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   position: absolute;
-  top: 105px;
-  left: 92px;
+  top: 88px;
+  left: 72px;
 }
 
 #eye2 {
   background: #ccc;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   position: absolute;
-  top: 105px;
-  left: 165px;
+  top: 88px;
+  left: 124px;
 }
 
 #pupil2 {
   background: #000;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 14px;
+  height: 14px;
   position: absolute;
   left: 100px;
 }
 </style>
     <link rel="icon" href="/default.672c070a.ico">
     <link rel="stylesheet" href="/index.e06a7e20.css">
-    <script src="/index.3edf765f.js" defer=""></script>
+    <link rel="stylesheet" href="/index.2212206d.css"><script src="/index.3edf765f.js" defer=""></script>
 </head>
 
 <body>
-        <div id="face">
-            <img src="/leon.a10c2c2e.jpeg" alt="profile photo" width="320px" height="400px">
+        <div id="face" style="z-index: 100">
+            <img src="/leon.a10c2c2e.jpeg" alt="profile photo" width="240px" height="320px">
             <div id="eye">
                 <div id="pupil"></div>
             </div>
@@ -70,7 +70,27 @@
                 <div id="pupil2"></div>
             </div>
         </div>
-        <h1>test</h1>
+        <div class="loading">
+            <div class="loading__box">
+                <div class="loading__text">
+                    <div class="loading__text--border">
+
+                    </div>
+                    L
+                    <div class="loading__text--dot"></div>
+                    OADING EXPERIENCE
+                </div>
+                <div class="loading__bar">
+                    <div class="loading__bar--inner">
+
+                    </div>
+                </div>
+                <div class="loading__counter">
+                    <span>0%</span>
+                    <div class="loading__counter--number">100%</div>
+                </div>
+            </div>
+        </div>
     <script>// modules are defined as an array
 // [ module function, map of requires ]
 //
@@ -215,14 +235,14 @@
       this[globalName] = mainExports;
     }
   }
-})({"dcko3":[function(require,module,exports) {
+})({"hz96G":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "4d8b110946ae8802";
+module.bundle.HMR_BUNDLE_ID = "fe4f354ae5c4a217";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -656,7 +676,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"5zPRD":[function(require,module,exports) {
+},{}],"iOqBY":[function(require,module,exports) {
 const html2canvas = require("6abab8ad6dd39332");
 var eye = document.getElementById("eye");
 var pupil = document.getElementById("pupil");
@@ -8487,7 +8507,7 @@ document.onmousemove = function(event) {
     return html2canvas;
 });
 
-},{}]},["dcko3","5zPRD"], "5zPRD", "parcelRequire2041")
+},{}]},["hz96G","iOqBY"], "iOqBY", "parcelRequire2041")
 
 </script>
 </body>
