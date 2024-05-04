@@ -39,7 +39,7 @@ $lightest-yellow:#d9ff88;
         height: 10px;
         &--inner{
             height: 100%;
-            width: 50%;
+            width: 0;
             border-radius: 2px;
             background: #aeff00;
         }
@@ -108,4 +108,18 @@ $lightest-yellow:#d9ff88;
             color: $violet-color;
         }
     }
+    &__width_animation{
+        animation: width_animation 1s forwards;
+        @keyframes width_animation {
+            0% {
+                width: 85%;
+            }
+            100% {
+                width: 280px;
+            }
+        }
+    }
+}
+span{
+    color: $violet-color;
 }
