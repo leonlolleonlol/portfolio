@@ -120,6 +120,15 @@ $general-bg:#58fa22;
             }
         }
     }
+    &__svg
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 85%;
+        opacity: 0;
+    }
 }
 span{
     color: $violet-color;
