@@ -2,6 +2,7 @@
 $violet-color: #5600a7;
 $light-blue-color: #3895b9;
 $lightest-yellow:#d9ff88;
+$general-bg:#58fa22;
 .loading{
     position: fixed;
     top: 0;
@@ -11,7 +12,7 @@ $lightest-yellow:#d9ff88;
     height: 100vh;
     width: 100%;
     z-index: 99;
-    background: #58fa22;
+    background: $general-bg;
     display: grid;
     place-items: center;
     font-family: "Orbitron", sans-serif;
@@ -122,4 +123,16 @@ $lightest-yellow:#d9ff88;
 }
 span{
     color: $violet-color;
+}
+.transition-circle {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    background-color: $light-blue-color; /* Change the background color as needed */
+    border-radius: 50%;
+    z-index: 1000; /* Ensure the circle is on top of other elements */
+    transition: width 1s ease-out, height 1s ease-out; /* CSS transition for width and height */
 }

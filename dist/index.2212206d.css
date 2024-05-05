@@ -133,4 +133,17 @@
 span {
   color: #5600a7;
 }
+
+.transition-circle {
+  z-index: 1000;
+  background-color: #3895b9;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  transition: width 1s ease-out, height 1s ease-out;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*# sourceMappingURL=index.2212206d.css.map */

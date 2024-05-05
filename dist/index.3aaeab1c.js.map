@@ -1,1 +1,1 @@
-{"mappings":"","sources":["src/assets/js/config.js"],"sourcesContent":["import '../styles/base.scss';\n"],"names":[],"version":3,"file":"index.3aaeab1c.js.map"}
+{"mappings":"","sources":["src/assets/js/config.js"],"sourcesContent":["import '../styles/base.scss';\nimport '../styles/loader.scss';\n\n"],"names":[],"version":3,"file":"index.3aaeab1c.js.map"}
