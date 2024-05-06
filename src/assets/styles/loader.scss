@@ -16,6 +16,7 @@ $general-bg:#58fa22;
     display: grid;
     place-items: center;
     font-family: "Orbitron", sans-serif;
+    //display: none;
     &__box{
         position:relative;
         width: 500px;
@@ -130,7 +131,7 @@ $general-bg:#58fa22;
         opacity: 0;
     }
 }
-span{
+label{
     color: $violet-color;
 }
 .transition-circle {

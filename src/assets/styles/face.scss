@@ -1,0 +1,48 @@
+#face {
+    position: absolute;
+    bottom: 0;
+    width: 320px;
+    height: 400px;
+}
+
+
+#pupil {
+    position: inherit;
+
+    width: 14px;
+    height: 14px;
+    background: #000;
+    border-radius: 50%;
+}
+
+#eye {
+    position: absolute;
+    top: 88px;
+    /* adjust as needed */
+    left: 70px;
+    /* adjust as needed */
+    width: 35px;
+    height: 35px;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+#eye2 {
+    position: absolute;
+    top: 88px;
+    /* adjust as needed */
+    left: 124px;
+    /* adjust as needed */
+    width: 35px;
+    height: 35px;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+#pupil2 {
+    position: inherit;
+    width: 14px;
+    height: 14px;
+    background: #000;
+    border-radius: 50%;
+}

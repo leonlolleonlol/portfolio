@@ -36,22 +36,24 @@ let barInterval = setInterval(() => {
         });
         gsap.to('.loading__box', {
             delay: 2,
-            border:"none",
+            border: "none",
         });
         gsap.to('.loading', {
             delay: 2,
             duration: 2, // Animation duration
             //zIndex: 1,
-            background:"transparent",
-            opacity:1,
+            background: "transparent",
+            opacity: 1,
         });
         setTimeout(() => {
+            /*
             gsap.to('.loading__svg', {
                 height: "500px",
                 opacity: 1,
                 rotate: 360,
                 duration: 4, // Animation duration
             });
+            */
             const transitionCircle = document.querySelector('.transition-circle');
             transitionCircle.style.width = '200vw'; // Expand circle width to cover the screen
             transitionCircle.style.height = '200vw'; // Expand circle height to cover the screen
@@ -70,6 +72,11 @@ let barInterval = setInterval(() => {
                 transitionCircle.style.opacity = '1'; // Restore circle opacity
                 transitionCircle.style.width = '0'; // Reset circle width
                 transitionCircle.style.height = '0'; // Reset circle height
+                document.getElementById('eye').style.background = light_blue_color;
+                document.getElementById('eye2').style.background = light_blue_color;
+                document.getElementsByClassName('landing')[0].style.opacity = 1;
+                //could change
+                document.getElementsByClassName('loading')[0].style.display = "none";
             }, 1000); // Change the delay (in milliseconds) to match your animation duration
         }, 1980); // Ensure this setTimeout starts after the rotation animation (2 seconds)
     }
