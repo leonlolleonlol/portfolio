@@ -1,3 +1,5 @@
+$red-color: #f44336;
+$blue-color: #2196f3;
 .coolButton {
     position: relative;
     border: none;
@@ -47,6 +49,30 @@
         &{
             transform: scale3d(0.7,0.7,0.7);
             font-size: 23px;
+        }
+    }
+}
+.coloredIcon{
+    color: white;
+    font-size: 35px;
+    &:hover{
+        animation: coloredIconAnimation .2s infinite;
+    }
+    @keyframes coloredIconAnimation {
+        0% {
+            text-shadow: 5px 4px $red-color, -5px -6px $blue-color;
+        }
+        25% {
+            text-shadow: -5px -6px $blue-color, 5px 4px $red-color;
+        }
+        50% {
+            text-shadow: 5px -4px $blue-color, -8px 4px $red-color;
+        }
+        50% {
+            text-shadow: -8px -4px $blue-color, -5px -4px $red-color;
+        }
+        100% {
+            text-shadow: -5px 0 $blue-color, 5px -4px $red-color;
         }
     }
 }
