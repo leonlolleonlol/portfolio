@@ -43,4 +43,10 @@
     &:hover:after{
         transform: translate3d(0,-5px,0);
     }
+    @media (max-width: 800px) {
+        &{
+            transform: scale3d(0.7,0.7,0.7);
+            font-size: 23px;
+        }
+    }
 }
