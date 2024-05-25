@@ -1,0 +1,68 @@
+.skills {
+    position: relative;
+    font-size: 40px;
+    height: 300px;
+    background: yellow;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 1rem;
+
+    &__header {
+        font-weight: 600;
+    }
+
+    &__wrapper {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    &__text {
+        position: absolute;
+        display: flex;
+        white-space: nowrap;
+        &--left {
+            left: 0;
+            top: 2rem;
+            animation: moveleft 25s linear infinite;
+        }
+        &--right {
+            right: 0;
+            top: 8rem;
+            animation: moveright 25s linear infinite;
+        }
+    }
+
+    @keyframes moveleft {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    @keyframes moveright {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(50%);
+        }
+    }
+
+    @media (max-width: 768px) {
+        height: 200px;
+        font-size: 30px;
+
+        &__text {
+            font-size: 22px;
+            &--left {
+                top: 2rem;
+            }
+            &--right {
+                top: 5rem;
+            }
+        }
+    }
+}

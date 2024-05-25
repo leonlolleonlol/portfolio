@@ -3,4 +3,5 @@ import '../styles/coolButton.scss';
 import '../styles/face.scss';
 import '../styles/landing.scss';
 import '../styles/loader.scss';
+import '../styles/skills.scss';
 
