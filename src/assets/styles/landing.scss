@@ -8,15 +8,12 @@ $mainColor: #21242C;
     background: #111;
     color: white;
     overflow: hidden;
-    opacity: 0;
     background-image: url('../images/wallpapers/113.jpg');
     background-size: cover;
-    /* Ensures the image covers the entire viewport */
     background-position: center;
-    /* Centers the image */
     background-repeat: no-repeat;
-    /* Prevents the image from repeating */
     opacity: 0.5;
+
     .header {
         position: absolute;
         top: 1rem;
@@ -36,13 +33,12 @@ $mainColor: #21242C;
             align-items: center;
             gap: 2rem;
 
-            & li {
+            li {
                 font-size: 18px;
                 font-weight: 700;
-                /*This part comes from https://codepen.io/jltk/pen/dMvGvG */
                 padding: 0 5px;
                 box-shadow: inset 0 0 0 0 white;
-                transition: all 0.4s ease-in-out 0s;
+                transition: all 0.4s ease-in-out;
 
                 &:hover {
                     box-shadow: inset 300px 0 0 0 white;
@@ -64,9 +60,7 @@ $mainColor: #21242C;
         }
 
         @media (max-width: 370px) {
-            & {
-                left: 36%;
-            }
+            left: 36%;
 
             &__wrap {
                 gap: 20%;
@@ -146,8 +140,7 @@ $mainColor: #21242C;
                 border-right: 2px solid white;
                 border-bottom: 2px solid white;
                 transform: rotate(45deg);
-                animation: scrollAnimation 0.75s infinite;
-                animation-duration: alternate;
+                animation: scrollAnimation 0.75s infinite alternate;
 
                 &:nth-child(1) {
                     animation-delay: 1s;
@@ -163,7 +156,7 @@ $mainColor: #21242C;
 
                 @keyframes scrollAnimation {
                     0% {
-                        opacity: 0
+                        opacity: 0;
                     }
 
                     50% {
@@ -181,7 +174,7 @@ $mainColor: #21242C;
     .intro {
         position: absolute;
         text-align: center;
-        top: 28%;
+        top: 25%;
         color: lightcyan;
         width: 100%;
         height: 60%;
@@ -193,33 +186,37 @@ $mainColor: #21242C;
             5px 5px 0 #000;
         font-family: 'Zen Os', sans-serif;
 
-        & h4 {
-            font-size: 50px;
+        h4 {
+            font-size: 45px;
             text-align: center;
         }
 
-        & h1 {
+        h1 {
             font-size: 40px;
             text-align: center;
             width: 100%;
-            padding-top: 2rem;
+            padding-top: 0.75rem;
         }
-        @media (max-width: 400px) {
-            top: 18%;
-            & h4 {
-                font-size: 20px;
-            }
-            & h1 {
-                padding-top: 1rem;
-                font-size: 20px;
-            }
-        }
+
         @media (max-width: 1281px) {
-            & h4 {
+            h4 {
                 font-size: 30px;
             }
-            & h1 {
+
+            h1 {
                 font-size: 30px;
+            }
+        }
+
+        @media (max-width: 450px) {
+            top: 18%;
+
+            h4 {
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 20px;
             }
         }
     }
