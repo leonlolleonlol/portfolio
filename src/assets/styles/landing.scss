@@ -207,7 +207,26 @@ $mainColor: #21242C;
                 font-size: 30px;
             }
         }
+        @media (max-width: 790px) {
 
+            h4 {
+                font-size: 27px;
+            }
+
+            h1 {
+                font-size: 27px;
+            }
+        }
+        @media (max-width: 500px) {
+
+            h4 {
+                font-size: 24px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
         @media (max-width: 450px) {
             top: 18%;
 

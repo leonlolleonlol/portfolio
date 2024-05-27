@@ -9,7 +9,7 @@
 87C:\Users\Leon\Documents\GitHub\portfolio\node_modules\utrie\dist\lib\TrieBuilder.js.map133590851820827900 0
 84C:\Users\Leon\Documents\GitHub\portfolio\node_modules\regenerator-runtime\runtime.js133589884151841421 0
 85C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\regions\DK.js133589884707486460 0
-68C:\Users\Leon\Documents\GitHub\portfolio\src\assets\styles\face.scss133594398473646521 0
+68C:\Users\Leon\Documents\GitHub\portfolio\src\assets\styles\face.scss133612481046015717 0
 100C:\Users\Leon\Documents\GitHub\portfolio\node_modules\css-tree\cjs\syntax\node\AttributeSelector.cjs133589884290362167 0
 78C:\Users\Leon\Documents\GitHub\portfolio\node_modules\node-addon-api\nothing.c133589884105832228 0
 95C:\Users\Leon\Documents\GitHub\portfolio\node_modules\source-map-js\lib\source-map-generator.js133589884294232687 0
@@ -30,7 +30,7 @@
 93C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\webcodecs.js133589884821244613 0
 84C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\utils\src\sourcemap.js133589884536540276 0
 75C:\Users\Leon\Documents\GitHub\portfolio\node_modules\cosmiconfig\README.md133589884469997627 0
-45C:\Users\Leon\Documents\GitHub\portfolio\dist133612459256844296 1
+45C:\Users\Leon\Documents\GitHub\portfolio\dist133612484084171811 1
 79C:\Users\Leon\Documents\GitHub\portfolio\node_modules\lines-and-columns\LICENSE133589884104859048 0
 91C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\css-all.js133589884609856033 0
 44C:\Users\Leon\Documents\GitHub\portfolio\src133590889306653171 1
@@ -40,7 +40,7 @@
 80C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\core\lib\Parcel.js133589884590931725 0
 123C:\Users\Leon\Documents\GitHub\portfolio\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\bin.js133589884146675836 0
 93C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\transformer-babel\lib\config.js133589884294780090 0
-55C:\Users\Leon\Documents\GitHub\portfolio\src\index.html133612455415083095 0
+55C:\Users\Leon\Documents\GitHub\portfolio\src\index.html133612467359639872 0
 90C:\Users\Leon\Documents\GitHub\portfolio\node_modules\lightningcss\node\composeVisitors.js133589884301813946 0
 129C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\index.js133589884516263168 0
 60C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@types133589882476369500 1
@@ -206,7 +206,7 @@
 104C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@babel\highlight\node_modules\color-name\README.md133589884132509178 0
 116C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo133589884462655812 1
 76C:\Users\Leon\Documents\GitHub\portfolio\node_modules\resolve-from\readme.md133589884189968808 0
-71C:\Users\Leon\Documents\GitHub\portfolio\src\assets\styles\landing.scss133612179541687617 0
+71C:\Users\Leon\Documents\GitHub\portfolio\src\assets\styles\landing.scss133612483640580957 0
 104C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\css-deviceadaptation.js133589884631474047 0
 70C:\Users\Leon\Documents\GitHub\portfolio\src\assets\styles\loader.scss133594456080805576 0
 90C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@swc\helpers\_\_dispose\package.json133589884649767098 0
@@ -650,7 +650,7 @@
 130C:\Users\Leon\Documents\GitHub\portfolio\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages-optional133589884828286691 0
 71C:\Users\Leon\Documents\GitHub\portfolio\node_modules\term-size\license133589884187369617 0
 102C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\speech-recognition.js133589884800423631 0
-73C:\Users\Leon\Documents\GitHub\portfolio\dist\CIC_Screenshot.c254ac3e.png133612459240452167 0
+73C:\Users\Leon\Documents\GitHub\portfolio\dist\CIC_Screenshot.c254ac3e.png133612484068349681 0
 63C:\Users\Leon\Documents\GitHub\portfolio\node_modules\nth-check133589884358988191 1
 72C:\Users\Leon\Documents\GitHub\portfolio\node_modules\css-tree\cjs\utils133589884608351780 1
 76C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\compressor-raw133589884211292774 1
@@ -2466,7 +2466,7 @@
 83C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@swc\helpers\_\_object_spread133589884655467038 1
 103C:\Users\Leon\Documents\GitHub\portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.c133589884526443830 0
 103C:\Users\Leon\Documents\GitHub\portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\module.h133589884610156205 0
-67C:\Users\Leon\Documents\GitHub\portfolio\dist\index.3aaeab1c.js.map133612459255020070 0
+67C:\Users\Leon\Documents\GitHub\portfolio\dist\index.3aaeab1c.js.map133612484082242946 0
 103C:\Users\Leon\Documents\GitHub\portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest2.c133589884538357811 0
 84C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@babel\code-frame\package.json133589884198244892 0
 75C:\Users\Leon\Documents\GitHub\portfolio\node_modules\entities\package.json133589884321139948 0
@@ -2593,7 +2593,7 @@
 79C:\Users\Leon\Documents\GitHub\portfolio\node_modules\js-yaml\lib\type\merge.js133589884377214502 0
 76C:\Users\Leon\Documents\GitHub\portfolio\node_modules\js-tokens\package.json133589884100116930 0
 85C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\regions\GF.js133589884730950032 0
-77C:\Users\Leon\Documents\GitHub\portfolio\dist\Cookart_Screenshot.1e24ab55.png133612459238275053 0
+77C:\Users\Leon\Documents\GitHub\portfolio\dist\Cookart_Screenshot.1e24ab55.png133612484066180111 0
 106C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\path.js133589884463142010 0
 78C:\Users\Leon\Documents\GitHub\portfolio\node_modules\js-yaml\lib\type\null.js133589884381387587 0
 77C:\Users\Leon\Documents\GitHub\portfolio\node_modules\js-yaml\lib\type\seq.js133589884415407477 0
@@ -3253,7 +3253,6 @@
 110C:\Users\Leon\Documents\GitHub\portfolio\node_modules\csso\node_modules\css-tree\cjs\parser\parse-selector.cjs133589884569117033 0
 75C:\Users\Leon\Documents\GitHub\portfolio\node_modules\has-flag\package.json133589884099270759 0
 127C:\Users\Leon\Documents\GitHub\portfolio\node_modules\html2canvas\dist\lib\css\property-descriptors\webkit-text-stroke-color.js133590851830641014 0
-68C:\Users\Leon\Documents\GitHub\portfolio\dist\index.45e30c86.css.map133612459255020070 0
 100C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\css-revert-value.js133589884685415009 0
 131C:\Users\Leon\Documents\GitHub\portfolio\node_modules\html2canvas\dist\lib\css\property-descriptors\webkit-text-stroke-color.js.map133590851838009896 0
 127C:\Users\Leon\Documents\GitHub\portfolio\node_modules\html2canvas\dist\lib\css\property-descriptors\webkit-text-stroke-width.js133590851830688957 0
@@ -3329,7 +3328,6 @@
 78C:\Users\Leon\Documents\GitHub\portfolio\node_modules\entities\lib\encode.d.ts133589884411217334 0
 73C:\Users\Leon\Documents\GitHub\portfolio\node_modules\detect-libc\LICENSE133589884196190984 0
 75C:\Users\Leon\Documents\GitHub\portfolio\node_modules\gsap\ScrollTrigger.js133594042942857728 0
-64C:\Users\Leon\Documents\GitHub\portfolio\dist\index.fa7912be.css133612459254855844 0
 72C:\Users\Leon\Documents\GitHub\portfolio\node_modules\gsap\TextPlugin.js133594042943404231 0
 85C:\Users\Leon\Documents\GitHub\portfolio\node_modules\gsap\types\scroll-smoother.d.ts133594042947001145 0
 99C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\promise-finally.js133589884788672532 0
@@ -4859,7 +4857,7 @@
 128C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\lang.js133589884534290645 0
 99C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\css-reflections.js133589884683229325 0
 103C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\css-relative-colors.js133589884683917708 0
-64C:\Users\Leon\Documents\GitHub\portfolio\dist\leon.4cb3449d.jpeg133612459242568010 0
+64C:\Users\Leon\Documents\GitHub\portfolio\dist\leon.4cb3449d.jpeg133612484070380186 0
 94C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\css-resize.js133589884684995330 0
 84C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@swc\helpers\cjs\_defaults.cjs133589884466662264 0
 96C:\Users\Leon\Documents\GitHub\portfolio\node_modules\caniuse-lite\data\features\css-rrggbbaa.js133589884685688229 0
@@ -5526,7 +5524,7 @@
 92C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@swc\helpers\cjs\_class_call_check.cjs133589884349567315 0
 119C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@swc\helpers\cjs\_class_check_private_static_field_descriptor.cjs133589884359273508 0
 96C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@swc\helpers\cjs\_class_name_tdz_error.cjs133589884368610994 0
-56C:\Users\Leon\Documents\GitHub\portfolio\dist\index.html133612459254855844 0
+56C:\Users\Leon\Documents\GitHub\portfolio\dist\index.html133612484082111075 0
 97C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\transformer-js\src\JSTransformer.js133589884256473235 0
 107C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@swc\helpers\cjs\_class_private_field_destructure.cjs133589884373106881 0
 99C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@swc\helpers\cjs\_class_private_field_get.cjs133589884377625500 0
@@ -6487,7 +6485,7 @@
 79C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\fs\lib\types.d.ts133589884376906023 0
 72C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\events\lib133589884311928438 1
 81C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\events\package.json133589884329924521 0
-68C:\Users\Leon\Documents\GitHub\portfolio\dist\index.381d6bab.css.map133612459255020070 0
+68C:\Users\Leon\Documents\GitHub\portfolio\dist\index.381d6bab.css.map133612484082257124 0
 72C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\events\src133589884317732355 1
 92C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\events\test\Disposable.test.js133589884230497094 0
 94C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\events\test\ValueEmitter.test.js133589884324734240 0
@@ -6520,7 +6518,7 @@
 100C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\core\test\fixtures\application-targets133589884653550283 1
 95C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\core\test\fixtures\common-targets133589884653767881 1
 104C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\core\test\fixtures\config-plugin-not-found133589884290619350 1
-63C:\Users\Leon\Documents\GitHub\portfolio\dist\index.0b005e10.js133612459254865969 0
+63C:\Users\Leon\Documents\GitHub\portfolio\dist\index.0b005e10.js133612484082124223 0
 104C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext133589884654168190 1
 105C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\core\test\fixtures\custom-format-infer-type133589884654222801 1
 98C:\Users\Leon\Documents\GitHub\portfolio\node_modules\@parcel\core\test\fixtures\duplicate-targets133589884654778783 1
@@ -6688,12 +6686,14 @@
 65C:\Users\Leon\Documents\GitHub\portfolio\node_modules\.bin\semver133589884828318081 0
 81C:\Users\Leon\Documents\GitHub\portfolio\node_modules\.bin\update-browserslist-db133589884828318081 0
 85C:\Users\Leon\Documents\GitHub\portfolio\node_modules\.bin\update-browserslist-db.ps1133589884828318081 0
-62C:\Users\Leon\Documents\GitHub\portfolio\dist\113.f7a58561.jpg133612459240452167 0
-79C:\Users\Leon\Documents\GitHub\portfolio\dist\Adoptapet_Screenshot.bbaff8af.png133612459238264495 0
-66C:\Users\Leon\Documents\GitHub\portfolio\dist\default.dff25739.ico133612459238275053 0
-67C:\Users\Leon\Documents\GitHub\portfolio\dist\index.0b005e10.js.map133612459255244180 0
-64C:\Users\Leon\Documents\GitHub\portfolio\dist\index.381d6bab.css133612459254855844 0
-63C:\Users\Leon\Documents\GitHub\portfolio\dist\index.3aaeab1c.js133612459254855844 0
-64C:\Users\Leon\Documents\GitHub\portfolio\dist\index.45e30c86.css133612459254855844 0
-68C:\Users\Leon\Documents\GitHub\portfolio\dist\index.fa7912be.css.map133612459255096484 0
-79C:\Users\Leon\Documents\GitHub\portfolio\dist\LoudyBird_Screenshot.56505799.png133612459242568010 0
+62C:\Users\Leon\Documents\GitHub\portfolio\dist\113.f7a58561.jpg133612484068359774 0
+79C:\Users\Leon\Documents\GitHub\portfolio\dist\Adoptapet_Screenshot.bbaff8af.png133612484066170031 0
+66C:\Users\Leon\Documents\GitHub\portfolio\dist\default.dff25739.ico133612484066180111 0
+67C:\Users\Leon\Documents\GitHub\portfolio\dist\index.0b005e10.js.map133612484082527551 0
+64C:\Users\Leon\Documents\GitHub\portfolio\dist\index.381d6bab.css133612484082111075 0
+63C:\Users\Leon\Documents\GitHub\portfolio\dist\index.3aaeab1c.js133612484082111075 0
+64C:\Users\Leon\Documents\GitHub\portfolio\dist\index.441da2e7.css133612484082111075 0
+68C:\Users\Leon\Documents\GitHub\portfolio\dist\index.441da2e7.css.map133612484082257124 0
+64C:\Users\Leon\Documents\GitHub\portfolio\dist\index.c03bcb9e.css133612484082111075 0
+68C:\Users\Leon\Documents\GitHub\portfolio\dist\index.c03bcb9e.css.map133612484082329657 0
+79C:\Users\Leon\Documents\GitHub\portfolio\dist\LoudyBird_Screenshot.56505799.png133612484070380186 0
