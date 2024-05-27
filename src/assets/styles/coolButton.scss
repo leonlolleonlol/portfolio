@@ -8,6 +8,18 @@ $blue-color: #2196f3;
     height: 120px;
     background: none;
     color: white;
+    &__reload{
+        color: darksalmon;
+    }
+    &__udemy{
+        color: rgb(132, 0, 194);
+    }
+    &__goto{
+        color: green;
+        &__concordia{
+            color: rgb(128, 0, 53);
+        }
+    }
 
     &:before,
     &:after {
@@ -73,6 +85,28 @@ $blue-color: #2196f3;
         }
         100% {
             text-shadow: -5px 0 $blue-color, 5px -4px $red-color;
+        }
+    }
+}
+.coolFunnyLink{
+    position: relative;
+    font-family: sans-serif;
+    svg{
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        stroke-width: 5px;
+        width: 95px;
+        path{
+            stroke-dasharray: 1;
+            stroke-dashoffset: 1;
+            transition: stroke-dashoffset 0.6s cubic-bezier(0.7,0,0.3,1);
+        }
+    }
+    &:hover{
+        svg path{
+            stroke-dashoffset: 0;
+            transition-timing-function: cubic-bezier(0.8,1,0.7,1);
         }
     }
 }
