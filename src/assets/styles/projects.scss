@@ -32,6 +32,15 @@
             font-family: sans-serif;
             display: flex;
             align-items: center;
+            text-decoration: underline white;
+        }
+        &--desc{
+            font-weight: bold;
+            position: relative;
+            font-size: 3vw;
+            font-family:cursive;
+            display: flex;
+            align-items: center;
         }
     }
     &__img{
@@ -66,8 +75,8 @@
         height: 500px;
         img{
             text-align: center;
-            width: 35vw;
-            height: 35vw;
+            width: 32vw;
+            height: 32vw;
             object-fit:contain;
             position: absolute;
             right: 15vw;
