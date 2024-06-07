@@ -240,3 +240,13 @@ $mainColor: #21242C;
         }
     }
 }
+.scroll-to-top {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+    color: white; /* Change this to your preferred color */
+}
+
+.scroll-to-top:hover {
+    color: black; /* Change this to your preferred hover color */
+}

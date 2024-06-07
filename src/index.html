@@ -64,10 +64,9 @@
                     <li><a href="#home" class="coolLink" data-text="Home"><span>Home</span></a></li>
                     <li class="header__sm"><a href="#about"><span>About</span></a></li>
                     <li><a href="#projects"><span>Projects</span></a></li>
-                    <li class="header__sm"><a href="#faq"><span>FAQ</span></a></li>
                 </ul>
                 <div class="header__right">
-                    <button class="coolButton"><span>Contact</span></button>
+                    <a href="mailto:leonkoj2004@gmail.com"><button class="coolButton"><span>Contact</span></button></a>
                 </div>
             </div>
         </header>
@@ -149,7 +148,7 @@
                     cybersecurity, futuristic gadgets/machines or software<br><br>
                     Some of my other interests are chess, economy & scouting<br><br>
                     Fun fact : My favorite series is The Blacklist!<br><br>
-                    ↓ You'll find some of my recent projects down below ↓
+                    ↓ You'll find some of my recent projects below ↓
                 </p>
             </div>
         </div>
@@ -249,7 +248,7 @@
                     A website for pet adoption (done in SOEN 287)
                 </h2>
             </div>
-            <div class="project__mediumimg">
+            <div class="project__img">
                 <img src="assets/images/project_images/Adoptapet_Screenshot.png" alt="portfolio">
                 <div class="project__links">
                     <a href="https://nodejs-proj.onrender.com/" title="portolio" target="_blank">
@@ -326,7 +325,7 @@
                     An user-friendly website to view Concordia's API data
                 </h2>
             </div>
-            <div class="project__smallimg">
+            <div class="project__smallgapimg">
                 <img src="assets/images/project_images/CIC_Screenshot.png" alt="portfolio">
                 <div class="project__links">
                     <a href="https://drive.google.com/drive/folders/1Hut9o0difr_YCbPABZDVNra4F5Qg7DEK" title="portolio"
@@ -388,7 +387,7 @@
                     Flappy Bird but you control it with your voice
                 </h2>
             </div>
-            <div class="project__smallimg">
+            <div class="project__smallgapimg">
                 <img src="assets/images/project_images/LoudyBird_Screenshot.png" alt="portfolio">
                 <div class="project__links">
                     <br>
@@ -519,6 +518,23 @@
             </div>
         </div>
     </section>
+    <footer style="text-align: center;">
+        <a href="#home" class="scroll-to-top" id="scrollToTop">
+            <i>↑ Go back up ↑</i>
+        </a>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/leonkojakian/" target="_blank">
+                <i class="uil uil-linkedin coloredIcon"></i>
+            </a>
+            <a href="https://www.github.com/leonlolleonlol" target="_blank">
+                <i class="uil uil-github coloredIcon"></i>
+            </a>
+            <a href="https://www.instagram.com/oklekole/" target="_blank">
+                <i class="uil uil-instagram coloredIcon"></i>
+            </a>
+        </div>
+        <h4>&copy; 2024 Leon Kojakian. All rights reserved.</h4>
+    </footer>
     <script type="module">
         const html2canvas = require('html2canvas');
         var eye = document.getElementById('eye');
@@ -546,6 +562,12 @@
         }
     </script>
     <script type="module" src="assets/js/app.js"></script>
+    <script>
+        document.getElementById('scrollToTop').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>
