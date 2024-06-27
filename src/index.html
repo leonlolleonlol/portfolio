@@ -64,6 +64,7 @@
                     <li><a href="#home" class="coolLink" data-text="Home"><span>Home</span></a></li>
                     <li class="header__sm"><a href="#about"><span>About</span></a></li>
                     <li><a href="#projects"><span>Projects</span></a></li>
+                    <li class="header__sm"><a href="#path"><span>Path</span></a></li>
                 </ul>
                 <div class="header__right">
                     <a href="mailto:leonkoj2004@gmail.com"><button class="coolButton"><span>Contact</span></button></a>
@@ -141,8 +142,8 @@
                     SPRING&nbsp;&nbsp;&nbsp;POSTGRESQL&nbsp;&nbsp;&nbsp;
                     SCRATCH&nbsp;&nbsp;&nbsp;PYTHON&nbsp;&nbsp;&nbsp;</span>
             </div>
-                <h1>About me!</h1>
-                <div class="bordered-text">
+            <h1>About me!</h1>
+            <div class="bordered-text">
                 <p>
                     I am passionate about technology, whether it's about: <br><br>
                     cybersecurity, futuristic gadgets/machines or software<br><br>
@@ -518,6 +519,17 @@
             </div>
         </div>
     </section>
+    <!--My path-->
+    <!--shoutout to https://codepen.io/t_afif/pen/MWOJqPx-->
+    <div class="path" id="path">
+        <h1>My path</h1>
+        <ul class="timeline">
+            <li><time datetime="2021-06">June 2021</time>Graduated secondary school at Collège Pasteur</li>
+            <li><time datetime="2023-06">June 2023</time>Graduated at Cégep Bois-de-Boulogne in Computer science and mathematics</li>
+            <li><time datetime="2023-09">September 2023</time>Enrolled in Software Engineering Co-op at Concordia</li>
+            <li><time datetime="1988-10">?????????</time>Coming soon...</li>
+        </ul>
+    </div>
     <footer style="text-align: center;">
         <a href="#home" class="scroll-to-top" id="scrollToTop">
             <i>↑ Go back up ↑</i>
@@ -563,7 +575,7 @@
     </script>
     <script type="module" src="assets/js/app.js"></script>
     <script>
-        document.getElementById('scrollToTop').addEventListener('click', function(e) {
+        document.getElementById('scrollToTop').addEventListener('click', function (e) {
             e.preventDefault();
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
